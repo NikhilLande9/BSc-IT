@@ -1,16 +1,21 @@
-import { useState } from 'react'
-
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/landing'; 
+import MembersPage from './pages/members';
+import EducationPage from './pages/education';
+import AchievementsPage from './pages/achievements';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-
-      </div>     
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/members" element={<MembersPage />} /> 
+        <Route path="/education" element={<EducationPage />} />
+        <Route path="/achievements" element={<AchievementsPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
