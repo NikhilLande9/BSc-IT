@@ -1,0 +1,116 @@
+{
+  "Unit 1": [
+    {
+      "question": "What is the difference between data, information, and knowledge? (May23)",
+      "answer": "Data is raw, unprocessed facts and figures without context. Information is data processed or organized into a meaningful context, making it useful. Knowledge is derived from information and involves understanding and insights that allow for decision-making and action.",
+      "year": "May23",
+      "unit": "Unit 1"
+    },
+    {
+      "question": "Describe different phases in the development of a decision support system (DSS). (May23, May24, Apr19)",
+      "answer": "The development of a DSS typically involves several phases: (1) Identification of the problem and decision requirements, (2) Designing the system architecture and database, (3) Developing models to analyze the data, (4) Implementing the system, and (5) Testing and refining the system based on feedback.",
+      "year": "May23, May24, Apr19",
+      "unit": "Unit 1"
+    },
+    {
+      "question": "Draw and explain the architecture of business intelligence. (May23, May24, Apr19)",
+      "answer": "The architecture of business intelligence includes several layers: data sources, data integration, data warehouse, data analysis, and information delivery. Data sources gather raw data; data integration tools cleanse and consolidate it; the data warehouse stores it; data analysis tools perform calculations and modeling; information delivery tools present insights to end-users.",
+      "year": "May23, May24, Apr19",
+      "unit": "Unit 1"
+    },
+    {
+      "question": "What is a decision support system (DSS)? What are the factors that affect the degree of success of a DSS? (May24, Apr19)",
+      "answer": "A DSS is a computerized system used to support decision-making processes. Factors influencing its success include system quality, user satisfaction, data quality, system usage, and organizational support.",
+      "year": "May24, Apr19",
+      "unit": "Unit 1"
+    },
+    {
+      "question": "Explain structured, unstructured, and semi-structured decisions. (May23)",
+      "answer": "Structured decisions are routine and involve clear procedures. Unstructured decisions are complex, lacking clear procedures, often requiring judgment and intuition. Semi-structured decisions fall in between, involving some routine aspects but also needing human judgment.",
+      "year": "May23",
+      "unit": "Unit 1"
+    },
+    {
+      "question": "Explain the classification of decisions according to their nature and scope. (Apr19)",
+      "answer": "Decisions can be classified based on their nature: strategic (long-term, overarching goals), tactical (short-to-medium term, actionable plans), and operational (day-to-day activities). Scope-wise, they can be categorized as personal (individual), organizational (company-wide), or societal (impact on the community).",
+      "year": "Apr19",
+      "unit": "Unit 1"
+    }
+  ],
+  "Unit 2": [
+    {
+      "question": "What is a model? Describe the phases in the development of the mathematical model for decision making. (May23, Apr19)",
+      "answer": "A model is a simplified representation of reality, used to analyze complex situations. Developing a mathematical model involves: (1) Problem definition, (2) Data collection, (3) Model formulation, (4) Model solution, and (5) Model validation and implementation.",
+      "year": "May23, Apr19",
+      "unit": "Unit 2"
+    },
+    {
+      "question": "Describe categorical and numerical attributes with examples for each one of them. (May23, Apr19)",
+      "answer": "Categorical attributes represent qualitative data and include distinct categories (e.g., gender: male, female). Numerical attributes represent quantitative data, consisting of numbers (e.g., age: 21, 25).",
+      "year": "May23, Apr19",
+      "unit": "Unit 2"
+    },
+    {
+      "question": "Explain predictive and optimization models. (May23)",
+      "answer": "Predictive models forecast future outcomes based on historical data. They use techniques such as regression analysis. Optimization models seek to find the best solution from a set of feasible alternatives, often using linear programming or other mathematical techniques.",
+      "year": "May23",
+      "unit": "Unit 2"
+    },
+    {
+      "question": "List and explain various applications of data mining. (May23, May24, Apr19)",
+      "answer": "Data mining applications include market basket analysis (finding product purchase correlations), fraud detection (identifying abnormal patterns), customer segmentation (grouping customers by behaviors), and predictive maintenance (anticipating equipment failures).",
+      "year": "May23, May24, Apr19",
+      "unit": "Unit 2"
+    },
+    {
+      "question": "Explain data cleansing. Why is data cleansing important for data mining? (May24)",
+      "answer": "Data cleansing involves detecting and correcting errors in data to improve quality. It's crucial for data mining because accurate, consistent data is essential for reliable analysis and valid results.",
+      "year": "May24",
+      "unit": "Unit 2"
+    },
+    {
+      "question": "Describe different transformation techniques for standardization (normalization). (May23, Apr19)",
+      "answer": "Normalization techniques include: Min-max scaling (rescaling data to a fixed range), Z-score normalization (scaling based on standard deviations from the mean), and Decimal scaling (moving the decimal point).",
+      "year": "May23, Apr19",
+      "unit": "Unit 2"
+    }
+  ],
+  "Unit 3": [
+    {
+      "question": "Write a short note on the confusion matrix. (May23, Apr19)",
+      "answer": "A confusion matrix is a table used to evaluate the performance of a classification model. It shows the actual vs. predicted classifications, with four outcomes: true positives, false positives, true negatives, and false negatives, helping to measure accuracy, precision, recall, and F1 score.",
+      "year": "May23, Apr19",
+      "unit": "Unit 3"
+    },
+    {
+      "question": "Write the k-means algorithm for clustering. (May23, May24, Apr19)",
+      "answer": "The k-means algorithm partitions data into k clusters. It involves: (1) Selecting k initial centroids, (2) Assigning each data point to the nearest centroid, (3) Updating centroids based on the mean of assigned points, and (4) Repeating steps 2-3 until convergence.",
+      "year": "May23, May24, Apr19",
+      "unit": "Unit 3"
+    },
+    {
+      "question": "Explain agglomerative hierarchical clustering method. (May23, May24)",
+      "answer": "Agglomerative hierarchical clustering is a bottom-up approach, where each data point starts as its own cluster. Clusters are iteratively merged based on similarity, forming a dendrogram that shows the nested grouping of clusters until a single cluster is achieved.",
+      "year": "May23, May24",
+      "unit": "Unit 3"
+    },
+    {
+      "question": "Write a short note on logistic regression used for prediction. (May23)",
+      "answer": "Logistic regression is used for binary classification tasks, predicting the probability of an outcome that has two possible values. It models the relationship between a dependent binary variable and one or more independent variables using a logistic function.",
+      "year": "May23",
+      "unit": "Unit 3"
+    },
+    {
+      "question": "Describe in detail support vector machines. (May24)",
+      "answer": "Support vector machines (SVMs) are supervised learning models used for classification and regression. They find the optimal hyperplane that maximizes the margin between different classes in the feature space, ensuring robust classification by minimizing classification errors.",
+      "year": "May24",
+      "unit": "Unit 3"
+    },
+    {
+      "question": "Explain the 'Back-propagation' form of neural networks with a diagram. (Apr19)",
+      "answer": "Back-propagation is an algorithm used to train neural networks. It involves adjusting weights based on error rates. Starting with a forward pass to calculate predictions, errors are propagated backward, and weights are updated using gradient descent to minimize the loss function.",
+      "year": "Apr19",
+      "unit": "Unit 3"
+    }
+  ]
+}
